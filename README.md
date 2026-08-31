@@ -1,13 +1,5 @@
 # Snap & Cook — Complete AI Build Prompt (Flutter, Android + iOS)
 
-> Paste this entire prompt into your Android Studio AI agent (or any AI coding agent) to generate the full application.
-
----
-
-## ROLE
-
-You are an expert Flutter developer. Build a complete, production-ready, cross-platform (Android + iOS) mobile application called **"Snap & Cook"** using Flutter and Firebase. Follow the exact specification below. Generate clean, modular, well-commented, null-safe Dart code using best practices (Provider or Riverpod for state management, proper folder structure, reusable widgets).
-
 ---
 
 ## 1. PROJECT OVERVIEW
@@ -245,11 +237,3 @@ Future<List<RecipeModel>> getRecipeRecommendations({
 - Ensure the app builds and runs cleanly on **both Android and iOS** (no platform-specific code without proper `Platform.isIOS` / `Platform.isAndroid` checks where required, e.g., camera permissions in `Info.plist` and `AndroidManifest.xml`).
 
 ---
-
-## 11. DELIVERABLE
-
-Generate the full Flutter project: `pubspec.yaml` with all required dependencies, the complete folder/file structure above, all screens, models, providers, services, and reusable widgets — fully wired end-to-end from Splash → Auth → Profile → Dashboard → AI Result, with the BioGlow indicator working as specified in Section 5.
-
----
-
-*End of prompt.*
